@@ -5,12 +5,14 @@ const app = express();
 const PORT = 8000;
 
 app.use(cors({
-    origin: "https://netflixclone-orcin-nine.vercel.app",
-
+    origin: [
+        "https://netflixclone-orcin-nine.vercel.app",
+        "http://localhost:5173"
+    ],
     methods: ["GET", "POST"],
     credentials: true
 }));
-app.use(express.json());
+
 
 // In-memory users
 let users = [];
