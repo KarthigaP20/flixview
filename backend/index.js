@@ -3,16 +3,17 @@ import cors from "cors";
 
 const app = express();
 const PORT = 8000;
+
+// Ensure JSON parsing
 app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
+
+// CORS for your deployed frontend
 app.use(cors({
-    origin: [
-        "https://netflixclone-orcin-nine.vercel.app",
-        "http://localhost:5173"
-    ],
+    origin: ["https://netflixclone-orcin-nine.vercel.app"],
     methods: ["GET", "POST"],
     credentials: true
 }));
-
 
 // In-memory users
 let users = [];
