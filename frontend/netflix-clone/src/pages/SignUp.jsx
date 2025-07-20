@@ -30,7 +30,7 @@ function Signup() {
     }
 
     try {
-      const res = await axios.post("http://localhost:8000/signup", {
+      const res = await axios.post("https://netflix-clone-1p4s.onrender.com/SignUp", {
         email,
         password: pass,
       });

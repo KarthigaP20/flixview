@@ -5,7 +5,8 @@ const app = express();
 const PORT = 8000;
 
 app.use(cors({
-    origin: "http://localhost:5173",
+    origin: "https://netflixclone-orcin-nine.vercel.app",
+
     methods: ["GET", "POST"],
     credentials: true
 }));
