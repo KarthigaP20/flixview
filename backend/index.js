@@ -4,7 +4,6 @@ import cors from "cors";
 const app = express();
 const PORT = 8000;
 
-// ✅ Fix: Add express.json() to parse JSON bodies
 app.use(express.json());
 
 app.use(cors({
@@ -19,12 +18,12 @@ app.use(cors({
 // In-memory users
 let users = [];
 
-// Check server running
+
 app.get("/", (req, res) => {
     res.send("Netflix Clone Backend running 🚀");
 });
 
-// ✅ Consistent lowercased endpoint: /signup
+
 app.post("/signup", (req, res) => {
     console.log("Received signup request:", req.body);
 
