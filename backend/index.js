@@ -3,7 +3,7 @@ import cors from "cors";
 
 const app = express();
 const PORT = 8000;
-app.use(express.json());
+
 app.use(cors({
     origin: [
         "https://netflixclone-orcin-nine.vercel.app",
@@ -23,7 +23,7 @@ app.get("/", (req, res) => {
 });
 
 // Sign Up route
-app.post("/signup", (req, res) => {
+app.post("/SignUp", (req, res) => {
     const { email, password } = req.body;
     if (!email || !password) {
         return res.status(400).json({ success: false, message: "All fields are required." });
