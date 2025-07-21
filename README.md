@@ -129,12 +129,12 @@ NETFLIX-CLONE/
 git clone https://github.com/KarthigaP20/Netflix-Clone.git
 cd Netflix-Clone
 
-## Author
+**## Author**
 
 [KarthigaP20](https://github.com/KarthigaP20)
 
-
-## 🙏 Thank You
+**
+## 🙏 Thank You**
 
 Thank you for checking out this project! If you found this clone helpful or interesting, feel free to give it a ⭐ on GitHub or share it with others. Your feedback and contributions are always welcome!
 
