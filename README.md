@@ -128,15 +128,14 @@ NETFLIX-CLONE/
 git clone https://github.com/KarthigaP20/Netflix-Clone.git
 cd Netflix-Clone
 
-## 🙋‍♀️ Author
+##** 👩‍💻 Author **
 
-Developed with ❤️ by [Karthiga P](https://github.com/KarthigaP20)
+Developed by [Karthiga P](https://github.com/KarthigaP20)
 
-## 💡 Feedback & Contributions
+## **💡 Feedback**
 
-If you like this project, feel free to ⭐ the repo, fork it, or submit a pull request!
+⭐ If you find this project helpful or want to suggest improvements, feel free to open an issue or contribute with a pull request.
 
-Have suggestions or issues? Open a ticket in the [Issues](https://github.com/KarthigaP20/Netflix-Clone/issues) section.
+Made with ❤️ using **React, Tailwind CSS, Node.js, Express, Vite, and Axios**.
 
-Made with ❤️ using **React**, **Tailwind CSS**, **Node.js**, **Vite**, and **Express**.
 
