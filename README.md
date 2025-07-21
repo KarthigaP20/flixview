@@ -128,14 +128,6 @@ NETFLIX-CLONE/
 git clone https://github.com/KarthigaP20/Netflix-Clone.git
 cd Netflix-Clone
 
-##** 👩‍💻 Author **
 
-Developed by [Karthiga P](https://github.com/KarthigaP20)
-
-## **💡 Feedback**
-
-⭐ If you find this project helpful or want to suggest improvements, feel free to open an issue or contribute with a pull request.
-
-Made with ❤️ using **React, Tailwind CSS, Node.js, Express, Vite, and Axios**.
 
 
