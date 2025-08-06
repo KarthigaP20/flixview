@@ -1,4 +1,4 @@
-# 🎬 [Netflix Clone](https://flixview-netflix-login-page-orcin-nine.vercel.app/) - Full Stack Web App
+# 🎬 [Flixview](https://flixview-netflix-login-page-orcin-nine.vercel.app/) - Full Stack Web App
 
 A **Netflix-style login/signup platform** built with **React, Vite, Tailwind CSS**, and a **Node.js + Express backend**. It provides a clean UI with real-time form validation, error handling, and integration between frontend and backend using Axios. Deployed using **Vercel** (Frontend) and **Render** (Backend).
 
@@ -33,43 +33,42 @@ A **Netflix-style login/signup platform** built with **React, Vite, Tailwind CSS
 
 ## 📂 Folder Structure
 
+```
 NETFLIX-CLONE/
 ├── backend/
-│ ├── index.js
-│ ├── package.json
-│ └── ...
+│   ├── index.js
+│   ├── package.json
+│   └── ...
 │
 ├── frontend/
-│ └── netflix-clone/
-│ ├── public/
-│ │ ├── logo.png
-│ │ └── vite.svg
-│ │
-│ ├── src/
-│ │ ├── assets/
-│ │ ├── images/
-│ │ ├── pages/
-│ │ │ ├── Login.jsx
-│ │ │ ├── SignUp.jsx
-│ │ │ └── Dashboard.jsx
-│ │ ├── Screenshots/
-│ │ │ ├── Homepage_lg.png
-│ │ │ ├── dashboard_lg.png
-│ │ │ ├── SignIn_UserExist_sm.png
-│ │ │ ├── SignInUserNotfoundErr_sm.png
-│ │ │ ├── Signup_md.png
-│ │ │ └── Signup_Useralreadyexist_lg.png
-│ │ ├── App.jsx
-│ │ ├── App.css
-│ │ ├── index.css
-│ │ └── main.jsx
-│ │
-│ ├── index.html
-│ ├── tailwind.config.js
-│ ├── vite.config.js
-│ └── vercel.json
-│
+│   └── netflix-clone/
+│       ├── public/
+│       │   ├── logo.png
+│       │   └── vite.svg
+│       ├── src/
+│       │   ├── assets/
+│       │   ├── images/
+│       │   ├── pages/
+│       │   │   ├── Login.jsx
+│       │   │   ├── SignUp.jsx
+│       │   │   └── Dashboard.jsx
+│       │   ├── Screenshots/
+│       │   │   ├── Homepage_lg.png
+│       │   │   ├── dashboard_lg.png
+│       │   │   ├── SignIn_UserExist_sm.png
+│       │   │   ├── SignInUserNotfoundErr_sm.png
+│       │   │   ├── Signup_md.png
+│       │   │   └── Signup_Useralreadyexist_lg.png
+│       │   ├── App.jsx
+│       │   ├── App.css
+│       │   ├── index.css
+│       │   └── main.jsx
+│       ├── index.html
+│       ├── tailwind.config.js
+│       ├── vite.config.js
+│       └── vercel.json
 └── README.md
+```
 
 ## 📸 Screenshots
 
@@ -91,8 +90,6 @@ NETFLIX-CLONE/
 ### 🔁 Sign Up - User Already Exists
 ![Signup Exists](src/Screenshots/Signup_Useralreadyexist_lg.png)
 
-
-
 ## ⚙️ How It Works
 
 1️⃣ User visits the app and lands on the **Login Page**  
@@ -104,7 +101,6 @@ NETFLIX-CLONE/
    - If no, shows error (or creates user during Sign Up)
 6️⃣ On success, user is **navigated to the dashboard**  
 7️⃣ All routes are handled smoothly using **React Router DOM**
-
 
 ## 🧪 Test Cases
 
@@ -121,14 +117,25 @@ NETFLIX-CLONE/
 - **Frontend (Vercel)**: [https://flixview-netflix-login-page-orcin-nine.vercel.app](https://flixview-netflix-login-page-orcin-nine.vercel.app/)  
 - **Backend (Render)**: [https://netflix-clone-1p4s.onrender.com](https://netflix-clone-1p4s.onrender.com)
 
-
 ## 🖥️ Local Setup
 
 ### 1️⃣ Clone the Repository
+
 ```bash
-git clone https://github.com/KarthigaP20/Netflix-Clone.git
+git clone https://github.com/KarthigaP20/flixview
 cd Netflix-Clone
+```
 
 
+## 👩‍💻 Author  
 
+
+Made with ❤️ by [KarthigaP20](https://github.com/KarthigaP20)
+
+
+## 🙏 Thank You
+
+Thank you for checking out this project! If you found this clone helpful or interesting, feel free to ⭐ the repo or contribute.
+
+If you have any questions or suggestions, feel free to open an issue or contact me directly.
 
