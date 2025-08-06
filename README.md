@@ -1,4 +1,4 @@
-# 🎬 [Netflix Clone](https://netflixclone-orcin-nine.vercel.app) - Full Stack Web App
+# 🎬 [Netflix Clone](https://flixview-netflix-login-page-orcin-nine.vercel.app/) - Full Stack Web App
 
 A **Netflix-style login/signup platform** built with **React, Vite, Tailwind CSS**, and a **Node.js + Express backend**. It provides a clean UI with real-time form validation, error handling, and integration between frontend and backend using Axios. Deployed using **Vercel** (Frontend) and **Render** (Backend).
 
@@ -74,22 +74,22 @@ NETFLIX-CLONE/
 ## 📸 Screenshots
 
 ### 🏠 Homepage (Login Page)
-![Homepage](frontend/netflix-clone/src/Screenshots/Homepage_lg.png)
+![Homepage](src/Screenshots/Homepage_lg.png)
 
 ### ✅ Dashboard
-![Dashboard](frontend/netflix-clone/src/Screenshots/dashboard_lg.png)
+![Dashboard](src/Screenshots/dashboard_lg.png)
 
 ### ❌ Sign In - User Doesn’t Exist
-![Not Found](frontend/netflix-clone/src/Screenshots/SignInUserNotfoundErr_sm.png)
+![Not Found](src/Screenshots/SignInUserNotfoundErr_sm.png)
 
 ### ⚠️ Sign In - User Already Exists
-![User Exists](frontend/netflix-clone/src/Screenshots/SignIn_UserExist_sm.png)
+![User Exists](src/Screenshots/SignIn_UserExist_sm.png)
 
 ### 📝 Sign Up
-![Signup](frontend/netflix-clone/src/Screenshots/Signup_md.png)
+![Signup](src/Screenshots/Signup_md.png)
 
 ### 🔁 Sign Up - User Already Exists
-![Signup Exists](frontend/netflix-clone/src/Screenshots/Signup_Useralreadyexist_lg.png)
+![Signup Exists](src/Screenshots/Signup_Useralreadyexist_lg.png)
 
 
 
@@ -118,7 +118,7 @@ NETFLIX-CLONE/
 
 ### 🔗 Live URLs
 
-- **Frontend (Vercel)**: [https://netflixclone-orcin-nine.vercel.app](https://netflixclone-orcin-nine.vercel.app)  
+- **Frontend (Vercel)**: [https://flixview-netflix-login-page-orcin-nine.vercel.app](https://flixview-netflix-login-page-orcin-nine.vercel.app/)  
 - **Backend (Render)**: [https://netflix-clone-1p4s.onrender.com](https://netflix-clone-1p4s.onrender.com)
 
 
@@ -129,14 +129,6 @@ NETFLIX-CLONE/
 git clone https://github.com/KarthigaP20/Netflix-Clone.git
 cd Netflix-Clone
 
-## Author
-
-[KarthigaP20](https://github.com/KarthigaP20)
 
 
-## 🙏 Thank You
-
-Thank you for checking out this project! If you found this clone helpful or interesting, feel free to give it a ⭐ on GitHub or share it with others. Your feedback and contributions are always welcome!
-
-If you have any questions or suggestions, feel free to open an issue or contact me directly.
 
