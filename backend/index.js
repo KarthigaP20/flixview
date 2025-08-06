@@ -8,7 +8,7 @@ app.use(express.json());
 
 app.use(cors({
     origin: [
-        "https://flixview-netflix-login-page-orcin-nine.vercel.app/",
+        "https://flixview-netflix-login-page-orcin-nine.vercel.app",
         "http://localhost:5173"
     ],
     methods: ["GET", "POST"],
